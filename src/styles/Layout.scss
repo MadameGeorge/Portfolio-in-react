@@ -1,0 +1,9 @@
+header {
+  @include section;
+
+  min-height: 100vh;
+}
+
+footer {
+  @include section;
+}

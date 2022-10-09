@@ -1,0 +1,19 @@
+@mixin background--default {
+  background-color: $body-bg;
+  color: $primary;
+}
+
+@mixin card {
+  @include background--default;
+  
+  border-radius: $radius;
+  border: $border;
+  padding: $lg;
+}
+
+@mixin section {
+  @include background--default;
+  
+  border-radius: $radius;
+  padding: $lg;
+}
