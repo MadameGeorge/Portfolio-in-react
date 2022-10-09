@@ -1,16 +1,19 @@
 import React from "react"
-import './styles/App.scss';
-import { Header } from './components/header';
-import { Footer } from './components/footer';
-
-import './styles/App.scss';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import ThemeProvider from 'react-bootstrap/ThemeProvider';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Footer/>
-    </div>
+    <ThemeProvider
+      breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+      minBreakpoint="xxs"
+    >
+      <div className="App">
+        <Header/>
+        <Footer/>
+      </div>
+    </ThemeProvider>
   );
 }
 

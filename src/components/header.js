@@ -1,15 +1,10 @@
 import React from "react"
+import { Navbar } from "./Nav"
 
 export function Header() {
   return (
-    <header className="App-header">
-      <nav>
-        <ul>
-          <li>About me</li>
-          <li>Work</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+    <header>
+      <Navbar/>
     </header>
   )
 }

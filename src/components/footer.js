@@ -4,9 +4,9 @@ export function Footer() {
   return (
     <footer>
       <ul>
-        <li>Phone</li>
-        <li>Email</li>
-        <li>Copyrights</li>
+        <li>Phone: 07923894586</li>
+        <li>Email: magda.powalisz@gmail.com</li>
+        <li>© Magdalena Powalisz 2022</li>
       </ul>
     </footer>
   )
