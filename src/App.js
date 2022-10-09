@@ -1,7 +1,7 @@
 import React from "react"
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
-import { CardProject } from './components/CardProject';
+import { CardGrid } from './components/CardGrid';
 import ThemeProvider from 'react-bootstrap/ThemeProvider';
 
 function App() {
@@ -12,10 +12,7 @@ function App() {
     >
       <div className="App">
         <Header/>
-        <CardProject
-          title="Card title"
-          subtitle="Card subtitle lorem ipsum"
-        />
+        <CardGrid/>
         <Footer/>
       </div>
     </ThemeProvider>
