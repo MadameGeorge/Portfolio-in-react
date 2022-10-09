@@ -7,3 +7,12 @@ header {
 footer {
   @include section;
 }
+
+.card {
+  @include background--default;
+  
+  border-radius: $radius;
+  border: $border;
+  margin-bottom: $lg;
+  padding: $md;
+}
